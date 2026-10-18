@@ -6,136 +6,502 @@
 
     <title>Cloud Computing | CC6004NU</title>
 
+    <meta name="description"
+          content="CC6004NU Network and Cloud Security: Introduction to Cloud Computing.">
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <nav class="navbar">
-    <a href="index.html" class="logo">CloudSec | CC6004NU</a>
 
-    <div class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="cloud-computing.html">Cloud Computing</a>
-        <a href="healthcare-blog.html">Healthcare Blog</a>
-        <a href="cloud-careers.html">Cloud Careers</a>
-    </div>
-</nav>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">CloudSec | CC6004NU</a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="cloud-computing.html">Cloud Computing</a>
+            <a href="healthcare-blog.html">Healthcare Blog</a>
+            <a href="cloud-careers.html">Cloud Careers</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
     <main class="container article">
 
-    <h1>Introduction to Cloud Computing</h1>
+        <h1>Introduction to Cloud Computing</h1>
 
-    <p>
-        These notes cover the key concepts from my
-        CC6004NU Network and Cloud Security workshop.
-    </p>
+        <p>
+            Welcome to my CC6004NU Network and Cloud Security workshop.
+            This page covers the main concepts of cloud computing,
+            its characteristics, service models, deployment models
+            and security considerations.
+        </p>
 
-    <!-- Keep your existing tutorial answers here -->
+        <!-- Question 1 -->
+        <section>
+            <h2>1. Definition of Cloud Computing</h2>
 
-    <p><a href="index.html">← Back to Home</a></p>
+            <p>
+                Cloud computing is the delivery of computing services
+                over the internet. These services include servers,
+                storage, databases, networking and software.
+                Organisations can access computing resources when
+                needed without having to own and maintain all the
+                physical infrastructure themselves.
+            </p>
 
-</main>
+            <p>
+                For example, an organisation can host its applications
+                on Microsoft Azure instead of purchasing and managing
+                its own physical servers.
+            </p>
 
-<footer class="footer">
-    <p>CC6004NU – Network and Cloud Security</p>
-    <p>Cloud Computing Workshop</p>
-</footer>
+            <h3>Essential Characteristics</h3>
 
-    <h1>Introduction to Cloud Computing</h1>
+            <ul>
+                <li>
+                    <strong>On-demand self-service:</strong>
+                    Users can provision computing resources when needed.
+                </li>
 
-    <p>
-        This page contains my notes for the CC6004NU
-        Network and Cloud Security module.
-    </p>
+                <li>
+                    <strong>Broad network access:</strong>
+                    Services can be accessed through a network using
+                    different devices.
+                </li>
 
-    <h2>1. Definition of Cloud Computing</h2>
+                <li>
+                    <strong>Resource pooling:</strong>
+                    Providers share computing resources between
+                    customers while maintaining logical separation.
+                </li>
 
-    <p>
-        Cloud computing is the delivery of computing services
-        over the internet. These services include servers,
-        storage, databases, networking and software.
-        Organisations can access resources when needed without
-        having to own and maintain all the physical infrastructure.
-    </p>
+                <li>
+                    <strong>Rapid elasticity:</strong>
+                    Resources can be increased or reduced according
+                    to demand.
+                </li>
 
-    <h2>2. Essential Characteristics</h2>
+                <li>
+                    <strong>Measured service:</strong>
+                    Resource usage is monitored and can be used
+                    for reporting and billing.
+                </li>
+            </ul>
 
-    <ul>
-        <li>On-demand self-service</li>
-        <li>Broad network access</li>
-        <li>Resource pooling</li>
-        <li>Rapid elasticity</li>
-        <li>Measured service</li>
-    </ul>
+            <h3>Cloud Service Models</h3>
 
-    <h2>3. Cloud Service Models</h2>
+            <p>
+                <strong>Infrastructure as a Service (IaaS):</strong>
+                Provides virtual machines, storage and networking.
+                Customers typically manage their operating systems
+                and applications.
+            </p>
 
-    <h3>Infrastructure as a Service (IaaS)</h3>
-    <p>
-        Provides computing resources such as virtual machines,
-        storage and networking. Customers manage their operating
-        systems and applications.
-    </p>
+            <p>
+                <strong>Platform as a Service (PaaS):</strong>
+                Provides a managed platform for developing,
+                testing and running applications.
+            </p>
 
-    <h3>Platform as a Service (PaaS)</h3>
-    <p>
-        Provides a managed platform for developing and running
-        applications without managing all the underlying infrastructure.
-    </p>
+            <p>
+                <strong>Software as a Service (SaaS):</strong>
+                Provides ready-to-use software over the internet,
+                usually through a web browser. Microsoft 365 is
+                one example.
+            </p>
+        </section>
 
-    <h3>Software as a Service (SaaS)</h3>
-    <p>
-        Provides ready-to-use software over the internet,
-        usually through a web browser.
-    </p>
+        <!-- Question 2 -->
+        <section>
+            <h2>2. Essential Characteristics of Cloud Computing</h2>
 
-    <h2>4. Cloud Deployment Models</h2>
+            <p>
+                The five essential characteristics distinguish cloud
+                computing from traditional IT infrastructure.
+                They allow organisations to access resources flexibly
+                and manage their computing needs more efficiently.
+            </p>
 
-    <ul>
-        <li><strong>Public cloud:</strong> Services are provided
-        over the internet by a cloud provider.</li>
+            <p>
+                For example, rapid elasticity allows an online retailer
+                to increase its computing capacity during a busy
+                shopping period and reduce it when demand falls.
+                Measured service can help the organisation monitor
+                resource usage and manage costs.
+            </p>
 
-        <li><strong>Private cloud:</strong> The cloud environment
-        is dedicated to one organisation.</li>
+            <p>
+                From a security perspective, organisations must also
+                manage access permissions, monitor their environments
+                and ensure that cloud resources are configured correctly.
+            </p>
+        </section>
 
-        <li><strong>Community cloud:</strong> Infrastructure is
-        shared by organisations with common requirements.</li>
+        <!-- Question 3 -->
+        <section>
+            <h2>3. Cloud Deployment Models</h2>
 
-        <li><strong>Hybrid cloud:</strong> Two or more distinct
-        cloud environments are connected to support data or
-        application portability.</li>
-    </ul>
+            <h3>Public Cloud</h3>
 
-    <h2>5. Cloud Security</h2>
+            <p>
+                Public cloud services are provided over the internet
+                using infrastructure operated by a cloud provider.
+                Examples include Microsoft Azure, Amazon Web Services
+                and Google Cloud.
+            </p>
 
-    <p>
-        Cloud security involves protecting data, applications
-        and infrastructure from unauthorised access and cyberattacks.
-        Important controls include identity management, access
-        control, encryption, monitoring and regular backups.
-    </p>
+            <p>
+                Public cloud offers scalability and reduces the need
+                for organisations to purchase physical infrastructure.
+                However, customers must configure and manage their
+                security controls appropriately.
+            </p>
 
-    <h2>6. Cloud Computing Reference Architecture</h2>
+            <h3>Private Cloud</h3>
 
-    <p>
-        The NIST Cloud Computing Reference Architecture identifies
-        five main actors: the cloud consumer, cloud provider,
-        cloud broker, cloud auditor and cloud carrier.
-    </p>
+            <p>
+                A private cloud is dedicated to one organisation.
+                It can be hosted within the organisation's own data
+                centre or by an external provider.
+            </p>
 
-    <h2>7. Cloud Providers</h2>
+            <p>
+                It can offer greater control over the environment,
+                but building and maintaining it may require
+                significant resources and technical expertise.
+            </p>
 
-    <p>
-        Examples of cloud providers include Microsoft Azure,
-        Amazon Web Services, Oracle Cloud, IBM Cloud, Google Cloud
-        and Alibaba Cloud.
-    </p>
+            <h3>Community Cloud</h3>
 
-    <p>
-        These providers offer different services and deployment
-        options. Organisations should compare security, cost,
-        compliance and technical requirements when choosing a provider.
-    </p>
+            <p>
+                A community cloud is designed for organisations
+                that share common requirements, such as security,
+                compliance or a common mission.
+            </p>
 
-    <p><a href="index.html">Back to Home</a></p>
+            <p>
+                Participating organisations can share resources,
+                but they need clear agreements about governance,
+                costs and security responsibilities.
+            </p>
+
+            <h3>Hybrid Cloud</h3>
+
+            <p>
+                A hybrid cloud connects two or more distinct cloud
+                infrastructures to support the movement or management
+                of data and applications between environments.
+            </p>
+
+            <p>
+                For example, an organisation might keep certain
+                sensitive workloads in a private environment while
+                using public cloud services for other applications.
+                Security policies must be managed consistently
+                across the connected environments.
+            </p>
+        </section>
+
+        <!-- Question 4 -->
+        <section>
+            <h2>4. Cloud Computing Reference Architecture</h2>
+
+            <p>
+                The Cloud Computing Reference Architecture describes
+                the main roles and components involved in providing
+                and using cloud services.
+            </p>
+
+            <p>The NIST reference architecture identifies five actors:</p>
+
+            <ul>
+                <li>
+                    <strong>Cloud consumer:</strong>
+                    The person or organisation using cloud services.
+                </li>
+
+                <li>
+                    <strong>Cloud provider:</strong>
+                    The organisation offering cloud services.
+                </li>
+
+                <li>
+                    <strong>Cloud broker:</strong>
+                    An intermediary that helps manage or combine
+                    cloud services.
+                </li>
+
+                <li>
+                    <strong>Cloud auditor:</strong>
+                    An independent party that assesses cloud services,
+                    security controls or compliance.
+                </li>
+
+                <li>
+                    <strong>Cloud carrier:</strong>
+                    The network provider that connects users
+                    to cloud services.
+                </li>
+            </ul>
+
+            <p>
+                This architecture helps organisations understand
+                the different responsibilities involved in cloud
+                computing. For example, a provider may secure
+                the physical data centre, while the customer must
+                configure user permissions correctly.
+            </p>
+        </section>
+
+        <!-- Question 5 -->
+        <section>
+            <h2>5. Comparison of Cloud Service Providers</h2>
+
+            <p>
+                Different cloud providers offer computing,
+                storage, networking, database and security services.
+                Their strengths and deployment options vary according
+                to the products and configurations available.
+            </p>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Provider</th>
+                            <th>Example Services</th>
+                            <th>Key Strengths</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Microsoft Azure</td>
+                            <td>Virtual Machines, Azure Storage, Azure SQL</td>
+                            <td>Microsoft integration and hybrid cloud</td>
+                        </tr>
+
+                        <tr>
+                            <td>Amazon Web Services</td>
+                            <td>EC2, S3, RDS</td>
+                            <td>Scalability and a broad service portfolio</td>
+                        </tr>
+
+                        <tr>
+                            <td>Oracle Cloud Infrastructure</td>
+                            <td>Compute, storage and Oracle databases</td>
+                            <td>Oracle database and enterprise workloads</td>
+                        </tr>
+
+                        <tr>
+                            <td>IBM Cloud</td>
+                            <td>Virtual servers, Kubernetes and databases</td>
+                            <td>Hybrid cloud and enterprise solutions</td>
+                        </tr>
+
+                        <tr>
+                            <td>Google Cloud</td>
+                            <td>Compute Engine, Cloud Storage, BigQuery</td>
+                            <td>Analytics, AI and container services</td>
+                        </tr>
+
+                        <tr>
+                            <td>Alibaba Cloud</td>
+                            <td>Elastic Compute Service and Object Storage</td>
+                            <td>Cloud services for businesses, particularly in Asia</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p>
+                All six providers offer public cloud services.
+                Their private, hybrid and dedicated infrastructure
+                options differ. Organisations should compare security,
+                cost, compliance, technical requirements and integration
+                with existing systems before choosing a provider.
+            </p>
+
+            <p>
+                For example, Azure may suit an organisation already
+                using Microsoft 365 and Microsoft Entra ID, while
+                Oracle Cloud Infrastructure may be suitable for
+                workloads that depend heavily on Oracle databases.
+            </p>
+        </section>
+
+        <!-- Question 6 -->
+        <section>
+            <h2>6. Organisations Using Cloud Providers</h2>
+
+            <p>
+                Organisations use cloud services to support applications,
+                store information and provide services to their customers.
+                The following are examples of publicly reported
+                relationships between organisations and cloud providers.
+            </p>
+
+            <ul>
+                <li>
+                    <strong>Netflix and AWS:</strong>
+                    Netflix uses AWS infrastructure to support
+                    its streaming service.
+                </li>
+
+                <li>
+                    <strong>Zoom and Oracle Cloud:</strong>
+                    Oracle announced that Zoom selected Oracle Cloud
+                    Infrastructure to support its video communications
+                    service.
+                </li>
+
+                <li>
+                    <strong>Spotify and Google Cloud:</strong>
+                    Spotify has publicly discussed its use of
+                    Google Cloud infrastructure.
+                </li>
+
+                <li>
+                    <strong>Accenture and Microsoft:</strong>
+                    The organisations work together on enterprise
+                    cloud solutions and Azure services.
+                </li>
+
+                <li>
+                    <strong>Vodafone and IBM:</strong>
+                    The organisations have worked together on
+                    enterprise technology and cloud initiatives.
+                </li>
+
+                <li>
+                    <strong>Lazada and Alibaba Cloud:</strong>
+                    Lazada has been associated with Alibaba Cloud
+                    services supporting its e-commerce operations.
+                </li>
+            </ul>
+
+            <p>
+                These examples illustrate how cloud services can
+                support different business requirements. However,
+                a relationship with a cloud provider does not
+                necessarily mean that an organisation uses every
+                deployment model offered by that provider.
+            </p>
+        </section>
+
+        <!-- Question 7 -->
+        <section>
+            <h2>7. UK Government Cloud Compared with EU Countries</h2>
+
+            <p>
+                The UK government has promoted cloud adoption through
+                its Cloud First policy, which encourages public-sector
+                organisations to consider cloud solutions when
+                procuring IT services. G-Cloud is one of the
+                procurement arrangements used by public-sector
+                organisations to obtain cloud services.
+            </p>
+
+            <h3>United Kingdom</h3>
+
+            <p>
+                The UK approach encourages departments to consider
+                cloud services while taking account of security,
+                operational needs and other requirements.
+            </p>
+
+            <h3>Germany</h3>
+
+            <p>
+                German public-sector cloud decisions place importance
+                on data protection, digital sovereignty and security
+                requirements.
+            </p>
+
+            <h3>France</h3>
+
+            <p>
+                France has developed trusted-cloud approaches that
+                give particular attention to national control and
+                the protection of sensitive information.
+            </p>
+
+            <h3>Estonia</h3>
+
+            <p>
+                Estonia is known for its digital public services
+                and digital-government infrastructure. It provides
+                a useful comparison when discussing the use of
+                technology in government services.
+            </p>
+
+            <h3>Netherlands</h3>
+
+            <p>
+                Dutch public-sector organisations also need to
+                consider privacy, information security and
+                procurement requirements when adopting cloud services.
+            </p>
+
+            <h3>Security Considerations</h3>
+
+            <p>
+                Governments need to consider data protection,
+                data sovereignty, access control, incident response,
+                business continuity and supplier risk when selecting
+                cloud services.
+            </p>
+
+            <p>
+                In my view, the deployment model should depend on
+                the sensitivity of the information, legal requirements,
+                resilience needs and the level of control required.
+                Governments need to balance the benefits of cloud
+                computing with their responsibility to protect
+                public information.
+            </p>
+
+            <p>
+                A detailed comparison should also be supported
+                by the ENISA publications listed in the Week 1
+                workshop materials and current government sources.
+            </p>
+        </section>
+
+        <!-- Conclusion -->
+        <section>
+            <h2>Conclusion</h2>
+
+            <p>
+                Cloud computing allows organisations to access
+                flexible computing resources without having to
+                maintain all the underlying physical infrastructure.
+                However, choosing a cloud service also requires
+                careful consideration of security, compliance,
+                cost and operational requirements.
+            </p>
+
+            <p>
+                As part of my Network and Cloud Security studies,
+                I am developing my understanding of how cloud
+                architecture and security controls work together
+                to protect data and services.
+            </p>
+        </section>
+
+        <p>
+            <a href="index.html">← Back to Home</a>
+        </p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>CC6004NU – Network and Cloud Security</p>
+        <p>Cloud Computing Workshop | Student Learning Portfolio</p>
+    </footer>
 
 </body>
 </html>
